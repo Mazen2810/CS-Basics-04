@@ -21,6 +21,32 @@
             //    Console.WriteLine($"{i} T");
             //}
             #endregion
+            #region For - Foreach
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Numbers[i] += 10;
+            //if (Numbers[i] == 5)
+            //{
+            //    break;
+            //}
+            //if (Numbers[i] == 5)
+            //{
+            //    continue;
+            //}
+            //    Console.WriteLine(Numbers[i] + 10);
+            //}
+
+            // Class Implement interface IEnumerable
+
+            //foreach (int Number in Numbers)
+            //{
+            //    //Number += 10;
+            //    Console.WriteLine(Number + 10);
+            //}
+            #endregion
         }
     }
 }
