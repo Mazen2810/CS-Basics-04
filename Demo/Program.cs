@@ -47,6 +47,26 @@
             //    Console.WriteLine(Number + 10);
             //}
             #endregion
+            #region While - Do While
+            //int Number;
+            //bool flag;
+            //do
+            //{
+            //    Console.WriteLine("Enter Even Number");
+            //    flag = int.TryParse(Console.ReadLine(),out Number);
+            //} while (Number % 2 == 1 || !flag);
+            //Console.WriteLine($"{Number} is Even");
+
+            //int Number = 3;
+            //bool flag = false;
+            //while (Number % 2 == 1 || !flag)
+            //{
+            //    Console.WriteLine("Enter Even Number");
+            //    flag = int.TryParse(Console.ReadLine(), out Number);
+            //}
+            //Console.WriteLine($"{Number} is Even");
+
+            #endregion
         }
     }
 }
