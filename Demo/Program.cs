@@ -169,6 +169,45 @@ namespace Demo
             //Console.WriteLine(Numbers.Length);
             //Console.WriteLine(Numbers.Rank);
             #endregion
+            #region Array 2D
+            //int[,] Marks = new int[3,5]  ;
+            ////Console.WriteLine(Marks.Length);
+            ////Console.WriteLine(Marks.Rank);
+            ////Console.WriteLine(Marks.GetLength(0));
+            ////Console.WriteLine(Marks.GetLength(1));
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter Data of student {i + 1}");
+            //    for (int j = 0; j < Marks.GetLength(1); )
+            //    {
+            //        bool Flag ;
+            //        Console.WriteLine($"Enter grade of subject {j +1}");
+            //        //Marks[i,j] = int.Parse(Console.ReadLine());
+            //       Flag = int.TryParse(Console.ReadLine(), out Marks[i,j]);
+
+            //        //if (Flag && Marks[i,j] >= 0)
+            //        //{
+            //        //    j++;
+            //        //}
+            //        j = Flag && Marks[i, j] >= 0 ? ++j : j;
+            //    }
+            //}
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades of student {i + 1}");
+            //    for (int j = 0; j < Marks.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($" grade of subject {j + 1}");
+            //        Console.WriteLine(Marks[i,j]);
+
+            //    }
+            //}
+
+
+
+            #endregion
         }
     }
 }
