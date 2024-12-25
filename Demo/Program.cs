@@ -208,6 +208,20 @@ namespace Demo
 
 
             #endregion
+            #region Judged Array
+            //int[][] Numbers = new int[3][];
+            //Numbers[0] = new int[3] {1,2,3};
+            //Numbers[1] = new int[2] {1,2};
+            //Numbers[2] = new int[1] {5};
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    for(int j = 0; j < Numbers[i].Length; j++)
+            //    {
+            //        Console.WriteLine(Numbers[i][j]);
+            //    }
+            //}
+            #endregion
         }
     }
 }
